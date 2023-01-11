@@ -15,3 +15,5 @@ var i = function () {
   console.log("i");
 };
 console.log(typeof i); //function
+console.log(010 == 10); //false
+console.log(010 === 10); //false 010--> octal
