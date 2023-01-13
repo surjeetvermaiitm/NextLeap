@@ -109,3 +109,22 @@
 // console.log(String(123)); //123
 // console.log((123).toString()); //123
 // console.log(1 - +"12");//-11
+
+//hoisting
+
+// console.log(a); //undefined
+// var a = 1;
+// console.log(a); //1
+// var a = 2;
+// console.log(a); //2
+
+// console.log(a);//[Function: a]
+// a(); //2
+// function a() {
+//   console.log("1");
+// }
+// a(); //2
+// function a() {
+//   console.log("2");
+// }
+// a(); //2
