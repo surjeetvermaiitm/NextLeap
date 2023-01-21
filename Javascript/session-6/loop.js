@@ -106,12 +106,12 @@
 // let ind = arr.findIndex((val) => {
 //   return val == 9;
 // });
-// console.log(ind); //-1
+// console.log(ind); //-1//findIndex return index and akes function as arguement
 
 // var arr = [1, 2, 3, 4, 5];
 // let ind = arr.find((val) => {
 //   return val == 4;
-// });
+// });//find return value
 // console.log(ind); //4
 
 // var arr = [1, 2, 3, 4, 5];
