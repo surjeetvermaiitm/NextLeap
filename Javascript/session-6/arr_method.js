@@ -34,3 +34,7 @@
 //   })
 // ); //[ 4, 3, 2, 1 ]
 // console.log(arr); //[ 4, 3, 2, 1 ]
+//descending order
+// a.sort((b, c) => {
+//   return b - c;
+// });

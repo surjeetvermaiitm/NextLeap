@@ -11,3 +11,4 @@ class Solution {
     return arr;
   }
 }
+// a.sort((b,c) => {return b-c});
