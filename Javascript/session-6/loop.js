@@ -63,7 +63,7 @@
 // }, 0);
 // console.log(ans);//10
 
-// var arr = [1, 2, 3, 4];
+var arr = [1, 2, 3, 4];
 // let ans = arr.reduce((acc, val) => {
 //   acc += val;
 //   return acc;
