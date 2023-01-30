@@ -102,6 +102,48 @@
 // console.log(add(1, 2, 3, 4, 54));
 
 //arrow fn
-let sum = (a, b) => {
-  return a + b;
+// let sum = (a, b) => {
+//   return a + b;
+// };
+
+//
+// var obj = {
+//   val1: 1,
+//   val2: 2,
+//   sum: function () {
+//     console.log(this);
+//     return this.val1 + this.val2;
+//   },
+// };
+// var obj2 = {
+//   val1: 10,
+//   val2: 20,
+// };
+// console.log(obj.sum());//3
+// console.log(obj.sum.call(obj2));//30
+
+//arrow fn
+// var obj = {
+//   val1: 1,
+//   val2: 2,
+//   sum: () => {
+//     console.log(this); //here arrow point to window object or global obj
+//     return this.val1 + this.val2;
+//   },
+// };
+// var obj2 = {
+//   val1: 10,
+//   val2: 20,
+// };
+// console.log(obj.sum()); //{} NaN here arrow point to window object
+
+//closure
+var sum = (a) => {
+  return (b) => {
+    return a + b;
+  };
 };
+console.log(sum(2)(3)); //5
+let sum1 = sum(1);
+console.log(sum1(2)); //3
+console.log(sum1(3)); //4
