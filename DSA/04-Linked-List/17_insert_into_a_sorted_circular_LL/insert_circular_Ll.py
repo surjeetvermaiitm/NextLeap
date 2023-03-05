@@ -34,3 +34,5 @@ class Solution(object):
         # insert node between prev and cur
         prev.next = node
         node.next = cur
+
+        return head
